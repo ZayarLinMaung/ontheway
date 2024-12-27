@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://54.206.54.0/";
+const API_URL = "http://54.206.54.0:8000";
 
 // Function to handle user registration
 export const registerUser = async (username, password) => {
